@@ -7,4 +7,6 @@ var numberOfPizzas = 6;
 var numberOfPeople = 12;
 var numberOfSlices = 8;
 
-var numberOfSlicesPerPerson = 
+var numberOfSlicesPerPerson = numberOfPizzas * numberOfSlices / numberOfPeople;
+
+console.log("The total number of pizza slices per a person is " + numberOfSlicesPerPerson); 
