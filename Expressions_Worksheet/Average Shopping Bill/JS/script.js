@@ -3,3 +3,7 @@
 //Expressions Worksheet
 //Average Shopping Bill
 
+var weeklyBudget [206, 220, 230,250,219];
+
+
+
