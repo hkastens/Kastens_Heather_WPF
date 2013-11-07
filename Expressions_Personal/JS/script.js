@@ -7,5 +7,7 @@ var amountTakenOut = prompt ("The amount that you wish to put back in savings");
 
 var thePercentage = amountTakenOut / paycheck;
 
-var results = "The percentage taken out of your paycheck for saving is" + result; 
+var results = "The percentage taken out of your paycheck for saving is " + thePercentage; 
+
+alert(results);
 
