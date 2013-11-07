@@ -5,4 +5,5 @@
 var paycheck =prompt ("The total amount of paycheck");
 var amountTakenOut = prompt ("The amount that you wish to put back in savings");
 
-var totalAmountTakenOut = 
+var thePercentage = amountTakenOut / paycheck;
+
