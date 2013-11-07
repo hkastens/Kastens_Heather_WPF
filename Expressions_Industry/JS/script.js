@@ -7,4 +7,6 @@ var amount2 = prompt ("Amount made in second round");
 var amount3 = prompt ("Amount made in third round");
 var amount4 = prompt ("Amount made in forth round");
 
+var average = amount1 + amount2+ amount3 + amount4 / 4;
+
 
