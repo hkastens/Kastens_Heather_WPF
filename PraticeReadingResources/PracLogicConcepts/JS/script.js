@@ -1,3 +1,4 @@
 //Logic Concepts
 
-if(temp >70){goToTheBeach();}
+temp= 65;
+if(temp ==75){goToTheBeach();}
