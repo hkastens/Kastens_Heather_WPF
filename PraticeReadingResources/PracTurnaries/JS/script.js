@@ -1,13 +1,9 @@
 //Conditional Logic- Ternary Operators
 
-var gpa = 48;
+var age = 11;
+var book;
 
-//if gpa is over min 2.0 score, the student can graduate
-/*if (gpa>2.0){
-	console.log("You can graduate");
-}else{
-	console.log("GPA is too low");
-}*/
+//if tge child is under 10, they get green eggs and ham, otherwise they get time machine
 
-(gpa > 2.0) ? console.log("You can graduate") : console.log("GPA is to low");
-
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
