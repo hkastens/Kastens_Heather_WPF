@@ -4,6 +4,7 @@
 
 var chicsOnHand = prompt ("How many chickens are currently in the warmer?"); 
 var supposedAmount = prompt ("How many chickens are supposed to be in the warmer at this time?");
+var howManyChicToMake;
 
-supposedAmount = (chicsOnHand >=) ? "You do not need to make more chicken" : "You need to make enough chicken so that you have the right amount on hand");
-alert(supposedAmount);
+howManyChicToMake = (chicsOnHand >= supposedAmount) ? "You do not need to make more chicken" : "You need to make enough chicken so that you have the right amount on hand";
+alert(howManyChicToMake);
