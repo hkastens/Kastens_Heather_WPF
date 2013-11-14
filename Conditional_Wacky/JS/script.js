@@ -9,4 +9,6 @@ var moneyYouExpectToMake= prompt ("How much money do you expect to make between 
 
 var total = moneyOnHand + moneyYouExpectToMake;
 
-if (total )
+if (total >= costOfDog){
+	alert("You can get the dog!");
+}
