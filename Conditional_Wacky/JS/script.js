@@ -11,9 +11,9 @@ var total = moneyOnHand + moneyYouExpectToMake; //The nuber values of each are b
 alert("Your total amount will be " + total); //This is an alret to let user know much much money intotal they will have
 
 if(moneyOnHand >= costOfDog){ //if the moneyOnHnad is greater than or equal to the costOfTheDog
-	console.log("You can get the dog!");
+	console.log("You can get the dog!"); //This will be printed on the console if true
 }else if (total >= costOfDog){ //if the total is greater than or equal to the costOfDog
-	console.log("You can get the dog, but only after you bring home the amount you were expecting to make");
+	console.log("You can get the dog, but only after you bring home the amount you were expecting to make"); //This will be printed on the console if true
 }else{ //this is saying if neither one is true then
-	console.log("Sorry you will not have enough money");
+	console.log("Sorry you will not have enough money"); //This will be printed on the console if true
 }
