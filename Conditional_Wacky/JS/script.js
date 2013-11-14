@@ -10,10 +10,10 @@ moneyYouExpectToMake = Number (moneyYouExpectToMake);
 var total = moneyOnHand + moneyYouExpectToMake; 
 alert("Your total amount will be " + total);
 
-/*if (moneyOnHand >= costOfDog){
+if(moneyOnHand >= costOfDog){
 	alert("You can get the dog!");
-}else if (total >=){
+}else if (total >= costOfDog){
 	alert("You can get the dog, but only after you bring home the amount you were expecting to bring home.");
 }else{
 	alert("Sorry you will not have enough money");
-}*/
+}
