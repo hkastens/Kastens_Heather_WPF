@@ -10,3 +10,6 @@ var minAgeFish = prompt ("How old does your kid need to be to have a fish?");
 if (age <= minAgeCat){
 	alert("Sorry you can't have a cat");
 }
+if (age <= minAgeDog){
+	alert("Sorry you can't have a dog");
+}
