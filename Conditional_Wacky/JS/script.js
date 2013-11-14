@@ -9,6 +9,10 @@ var moneyYouExpectToMake= prompt ("How much money do you expect to make between 
 
 var total = moneyOnHand + moneyYouExpectToMake;
 
-if (total >= costOfDog){
+if (moneyOnHand >= costOfDog){
 	alert("You can get the dog!");
+}else if (total >=){
+	alert("You can get the dog, but only after you bring home the amount you were expecting to bring home.");
+}else{
+	alert("Sorry you will not have enough money");
 }
