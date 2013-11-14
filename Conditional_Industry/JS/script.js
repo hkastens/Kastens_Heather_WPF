@@ -3,4 +3,4 @@
 //Conditionals_Industry
 
 var chicsOnHand = prompt ("How many chickens are currently in the warmer?"); 
-var supposedAmount =
+var supposedAmount = prompt ("How many chickens are supposed to be in the warmer at this time?");
