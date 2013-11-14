@@ -4,4 +4,5 @@
 
 var moneyOnHand = prompt ("How much money you have on hand?");
 var moneyInSavings = prompt ("How much money do you have in savings?");
+var moneyYouExpectToMake= ("How much money do you expect to make between now and when you want to buy the dog?");
 
