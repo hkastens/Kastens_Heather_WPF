@@ -4,6 +4,9 @@
 
 var costOfDog = prompt ("How much will you need to buy the dog and all the necessities?");
 var moneyOnHand = prompt ("How much money you have on hand?");
-var moneyYouExpectToMake= ("How much money do you expect to make between now and when you want to buy the dog?");
+var moneyYouExpectToMake= prompt ("How much money do you expect to make between now and when you want to buy the dog?");
 
 
+var total = moneyOnHand + moneyYouExpectToMake;
+
+if (total )
