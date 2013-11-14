@@ -12,4 +12,6 @@ if (age <= minAgeCat){
 }
 if (age <= minAgeDog){
 	alert("Sorry you can't have a dog");
-}
+}else if (age <= minAgeFish){
+	alert("Sorry you can't have a fish");
+}else 
