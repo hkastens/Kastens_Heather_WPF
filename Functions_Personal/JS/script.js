@@ -9,3 +9,8 @@ var numOfAs = function (A, moneyEarned) {
 	var totalMoney = A * moneyEarned;
 	return totalMoney;
 }
+
+var A = Number (A);
+var moneyEarned = Number (moneyEarned);
+var total = moneyEarned;
+
