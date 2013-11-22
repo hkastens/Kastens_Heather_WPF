@@ -10,5 +10,5 @@ var boxSize = prompt ("How many pieces of chicken would you like?");
 		boxSize = Number (boxSize);
 		console.log("The sale price of your chicken box is " + (boxSize - 2) + " dollars");
 }else{
-	
+	console.log("Sorry your chicken is not on sale.")
 }
