@@ -5,3 +5,6 @@
 var chickenBoxs = alert ("Any box of chicken that is 25 pieces and up are $2.00 off");
 
 var boxSize = prompt ("How many pieces of chicken would you like?");
+	if (boxSize > 8){
+		
+	}
