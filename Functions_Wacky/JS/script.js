@@ -12,4 +12,5 @@ var green = prompt ("How many green balloons would you like?");{
 	green = Number (green);
 	
 	var totalBalloons = (blue + red + green);
+	console.log("The total number of balloons that the customer would like is " + totalBalloons);
 }
