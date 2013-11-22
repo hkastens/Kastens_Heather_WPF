@@ -11,7 +11,7 @@ var moneyEarned = prompt ("How much money is each A worth?");{//second prompt
 	A = Number (A);//truning the var A into the actual number 
     moneyEarned = Number (moneyEarned);//turning var moneyEarned into actual number to be add
 	var totalMoney = (A * moneyEarned);//taking the amount of A's earned and muiltipling them by the dollar amount earned per A
-	console.log("Your child earned a total of " + totalMoney + " dollars");
+	console.log("Your child earned a total of " + totalMoney + " dollars");//total amount of money that was earned is printed to console
 }	
 	
 
