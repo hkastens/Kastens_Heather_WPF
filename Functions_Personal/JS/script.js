@@ -7,5 +7,5 @@ var numOfAs = function (A, moneyEarned) {
 	var moneyEarned ("How much money is each A worth?");
 	
 	var totalMoney = A * moneyEarned;
-	con
+	return totalMoney;
 }
