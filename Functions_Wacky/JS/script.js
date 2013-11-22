@@ -8,7 +8,7 @@ var green = prompt ("How many green balloons would you like?");{
 	var total = function (blue, red, green)
 	
 	blue = Number (blue);
-	red = Number (Red);
+	red = Number (red);
 	green = Number (green);
 	
 	var totalBalloons = (blue + red + green);
